@@ -53,7 +53,7 @@ const Customizer = () => {
     try {
       setGeneratingImg(true);
 
-      const response = await fetch('https://threejs-hvfm.onrender.com', {
+      const response = await fetch('http://localhost:8080', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json'
